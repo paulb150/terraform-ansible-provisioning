@@ -24,7 +24,7 @@ terraform apply -var "do_api_token=${DO_API_TOKEN}"
 To destroy 
 
 `
-terraform destroy
+terraform destroy -var "do_api_token=${DO_API_TOKEN}"
 `
 
 Reference article:
